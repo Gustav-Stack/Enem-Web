@@ -1,0 +1,430 @@
+body{
+    height: 700px;
+}
+#roundedsquare img{
+position: absolute;
+top:0;
+right:0;
+bottom:0;
+left:0;
+margin:1rem;
+margin-left: auto;
+margin-right: auto;
+width: 9rem;
+z-index: -2;
+}
+#CanvaMenu img{
+position: absolute;
+width: 1.5rem;
+top:0rem;
+right:17rem;
+bottom:0rem;
+left:0rem;
+margin:1.5rem;
+margin-left: auto;
+margin-right: auto;
+}
+#casa img{
+    position: absolute;
+    width: 1.5rem;
+    top:0rem;
+    right:17rem;
+    bottom:0rem;
+    left:0rem;
+    margin:1.8rem;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#livro img{
+    position: absolute;
+    width: 1.5rem;
+    top:0rem;
+    right:17rem;
+    bottom:0rem;
+    left:0rem;
+    margin:7.2rem;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#result img{
+    position: absolute;
+    width: 1.5rem;
+    top:0rem;
+    right:17rem;
+    bottom:0rem;
+    left:0rem;
+    margin:12.5rem;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#mente img{
+    position: absolute;
+    width: 1.5rem;
+    top:0rem;
+    right:17rem;
+    bottom:0rem;
+    left:0rem;
+    margin:23.3rem;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#BTLOM img{
+    position: absolute;
+    width: 10rem;
+    top:2.5rem;
+    right:0rem;
+    bottom:0rem;
+    left:9rem;
+    margin:1rem;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -2;
+}
+#matematica img{
+    position: absolute;
+    width:8rem;
+    top:6rem;
+    right:9rem;
+    bottom:0rem;
+    left:0rem;
+    margin:1rem;
+    margin-left: auto;
+    margin-right: auto;
+              }
+    #ACB img{
+        position: absolute;
+        width: 18rem;
+        top:8rem;
+        right:0rem;
+        bottom:0rem;
+        left:0rem;
+        margin:1rem;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -2;
+        }
+        #GPA img{
+                position: absolute;
+                width: 18rem;
+                top:14.6rem;
+                right:0rem;
+                bottom:0rem;
+                left:0rem;
+                margin:1rem;
+                margin-left: auto;
+                margin-right: auto;
+                z-index: -2;
+                }
+        #MF img{
+            position: fixed;
+            width: 100rem;
+            height:4rem;
+            top:auto;
+            right:0rem;
+            bottom:-1rem;
+            left:0rem;
+            margin:1rem;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        #A img{
+            position: fixed;
+            width: 1.6rem;
+            top:auto;
+            right:0rem;
+            bottom:0rem;
+            left:18rem;
+            margin:1rem;
+            margin-left: auto;
+            margin-right: auto;
+            -moz-transform: scaleX(-1);
+            -o-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+        #B img{
+            position: fixed;
+            width: 1.6rem;
+            top:auto;
+            right:18rem;
+            bottom:0rem;
+            left:0rem;
+            margin:1rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #C img{
+            position: fixed;
+            width: 3.9rem;
+            top:auto;
+            right:0rem;
+            bottom:-.8rem;
+            left:12rem;
+            margin:1rem;
+            margin-left: auto;
+            margin-right: auto;
+        } #D img{
+            position: fixed;
+            width: 3.9rem;
+            top:auto;
+            right:0rem;
+            bottom:-.8rem;
+            left:4rem;
+            margin:1rem;
+            margin-left: auto;
+            margin-right: auto;
+        } #E img{
+            position: fixed;
+            width: 3.9rem;
+            top:auto;
+            right:4.3rem;
+            bottom:-.8rem;
+            left:0rem;
+            margin:1rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #F img{
+            position: fixed;
+            width: 3.9rem;
+            top:auto;
+            right:12.5rem;
+            bottom:-.8rem;
+            left:0rem;
+            margin:1rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #GPA1 img{
+            position: absolute;
+            width: 18rem;
+            top:21rem;
+            right:0rem;
+            bottom:0rem;
+            left:0rem;
+            margin:1rem;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: -2;
+            }
+            #GPA2 img{
+                position: absolute;
+                width: 18rem;
+                top:27.5rem;
+                right:0rem;
+                bottom:0rem;
+                left:0rem;
+                margin:1rem;
+                margin-left: auto;
+                margin-right: auto;
+                z-index: -2;
+                }
+                #GPA3 img{
+                    position: absolute;
+                    width: 18rem;
+                    top:34rem;
+                    right:0rem;
+                    bottom:0rem;
+                    left:0rem;
+                    margin:1rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    z-index: -2;
+                    }
+                    #GPA4 img{
+                        position: absolute;
+                        width: 18rem;
+                        top:41rem;
+                        right:0rem;
+                        bottom:0rem;
+                        left:0rem;
+                        margin:1rem;
+                        margin-left: auto;
+                        margin-right: auto;
+                        z-index: -2;
+                        }
+                        #P img{
+                            position: absolute;
+                            width:19rem;
+                            top:5rem;
+                            right:.3rem;
+                            bottom:0rem;
+                            left:0rem;
+                            margin:1rem;
+                            margin-left: auto;
+                            margin-right: auto;
+                             }
+                        #word {
+                                font-family: sans-serif;
+                                font-size: .7rem;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 1rem;
+                                padding-top:8rem; 
+                              }
+                              #Lingua img{
+                                position: fixed;
+                                width: 3rem;
+                                top:auto;
+                                right:12.5rem;
+                                bottom:-.1rem;
+                                left:0rem;
+                                margin:1rem;
+                                margin-left: auto;
+                                margin-right: auto;
+                              }
+                              #Calculator img{
+                                position: fixed;
+                                width: 2.8rem;
+                                top:auto;
+                                right:4.5rem;
+                                bottom:-.2rem;
+                                left:0rem;
+                                margin:1rem;
+                                margin-left: auto;
+                                margin-right: auto;
+                              }
+                              #Dna img{
+                                position: fixed;
+                                width: 1rem;
+                                top:auto;
+                                right:0rem;
+                                bottom:-.4rem;
+                                left:4rem;
+                                margin:1rem;
+                                margin-left: auto;
+                                margin-right: auto;
+                              }
+                              #GEO img{
+                                position: fixed;
+                                width: 2rem;
+                                top:auto;
+                                right:0rem;
+                                bottom:-.3rem;
+                                left:12rem;
+                                margin:1rem;
+                                margin-left: auto;
+                                margin-right: auto;
+                              }
+                              #redacao {
+                                  font-family: sans-serif;
+                                font-size: .7rem;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                padding: 1rem;
+                                padding-top:8rem; 
+                              }
+                              *{
+                                margin: 0;
+                                padding: 0;
+                            }
+                            #check{
+                                display:none;
+                            }
+                            #icone{
+                                cursor: pointer;
+                                position: absolute;
+                                width: 1rem;
+                                top:-.5rem;
+                                right:300rem;
+                                bottom:0rem;
+                                left:2rem;
+                                margin:1.5rem;
+                                margin-left: auto;
+                                margin-right: auto;
+                                position: absolute;
+                                z-index: 1;
+                                
+                                
+                            }
+
+                            .barra{
+                                background-color:#98d4df;
+                                height: 200%;
+                                width: 300px;
+                                position: absolute;
+                                transition: all .5s linear;
+                                left: -500px;
+                                padding: 10px;
+                                opacity: 0%;
+                            }
+                            nav{
+                                width: 90%;
+                                position: absolute;
+                                top: 60px;
+                                left:13px
+                                
+                    
+                            }
+                            nav a{
+                                text-decoration: none;
+                    
+                    
+                            }
+                            .link {
+                                background-color: #1c3c6c;
+                                padding: 30px;
+                                font-family: Arial, Helvetica, sans-serif;
+                                font-size: 20px;
+                                transition: all .2s linear;
+                                color: #ffffff;
+                                border-bottom: 2px solid #98d4df;
+                                opacity: 0%;
+                                margin-top: 20px;
+                            }
+                            .link:hover{
+                                background-color:#7c9cb4;
+                            }
+                            #check:checked ~ .barra{
+                                transform: translateX(500px);
+                                opacity: 100%;
+                                
+                            }
+                            
+                            #check:checked ~ .barra nav a .link{
+                                opacity:1;
+                                margin-top: 0;
+                                transition-delay: .2s;
+                            }
+
+
+            #mat {
+                color:#565e9d;
+                font-family:'Eczar', serif;
+                font-size: 1.6rem;
+                position: absolute;
+                
+                        width: 18rem;
+                        top:5.5rem;
+                        right:0rem;
+                        bottom:0rem;
+                        left:0rem;
+                        margin:1rem;
+                        margin-left: auto;
+                        margin-right: auto;
+                        z-index: -2;
+
+            }
+          
+            #mate {
+                color:#565e9d;
+                font-family:'Eczar', serif;
+                font-size: 1.6rem;
+                position: absolute;
+                
+                        width: 18rem;
+                        top:5.5rem;
+                        right:0rem;
+                        bottom:0rem;
+                        left:0rem;
+                        margin:1rem;
+                        margin-left: auto;
+                        margin-right: auto;
+                        z-index: -2;
+
+            }
+
+          

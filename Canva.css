@@ -91,30 +91,7 @@ margin-right: auto;
     margin-left: auto;
     margin-right: auto;
               }
-    #ACB img{
-        position: absolute;
-        width: 18rem;
-        top:8rem;
-        right:0rem;
-        bottom:0rem;
-        left:0rem;
-        margin:1rem;
-        margin-left: auto;
-        margin-right: auto;
-        z-index: -2;
-        }
-        #GPA img{
-                position: absolute;
-                width: 18rem;
-                top:14.6rem;
-                right:0rem;
-                bottom:0rem;
-                left:0rem;
-                margin:1rem;
-                margin-left: auto;
-                margin-right: auto;
-                z-index: -2;
-                }
+   
         #MF img{
             position: fixed;
             width: 100rem;
@@ -195,54 +172,85 @@ margin-right: auto;
             margin:1rem;
             margin-left: auto;
             margin-right: auto;
+            transition: all .5s linear;
         }
-        #GPA1 img{
-            position: absolute;
+        #ACB img{
+            position: relative;
             width: 18rem;
-            top:21rem;
+            top:9rem;
             right:0rem;
             bottom:0rem;
             left:0rem;
             margin:1rem;
             margin-left: auto;
             margin-right: auto;
-            z-index: -2;
+            z-index: 0;
+            transition: all .5s linear;
             }
-            #GPA2 img{
-                position: absolute;
-                width: 18rem;
-                top:27.5rem;
-                right:0rem;
-                bottom:0rem;
-                left:0rem;
-                margin:1rem;
-                margin-left: auto;
-                margin-right: auto;
-                z-index: -2;
-                }
-                #GPA3 img{
-                    position: absolute;
+            #GPA img{
+                    position: relative;
                     width: 18rem;
-                    top:34rem;
+                    top:9rem;
                     right:0rem;
                     bottom:0rem;
                     left:0rem;
                     margin:1rem;
                     margin-left: auto;
                     margin-right: auto;
-                    z-index: -2;
+                    z-index: 0;
+                    transition: all .5s linear;
+                    }
+        #GPA1 img{
+            position: relative;
+            width: 18rem;
+            top:9rem;
+            right:0rem;
+            bottom:0rem;
+            left:0rem;
+            margin:1rem;
+            margin-left: auto;
+            margin-right: auto;
+            z-index: 0;
+            transition: all .5s linear;
+            }
+            #GPA2 img{
+                position:relative;
+                width: 18rem;
+                top:9rem;
+                right:0rem;
+                bottom:0rem;
+                left:0rem;
+                margin:1rem;
+                margin-left: auto;
+                margin-right: auto;
+                z-index: 0;
+                transition: all .5s linear;
+                }
+                #GPA3 img{
+                    position: relative;
+                    width: 18rem;
+                    top:9rem;
+                    right:0rem;
+                    bottom:0rem;
+                    left:0rem;
+                    margin:1rem;
+                    margin-left: auto;
+                    margin-right: auto;
+                    z-index: 0;
+                    transition: all .5s linear;
                     }
                     #GPA4 img{
-                        position: absolute;
+                        position: relative;
                         width: 18rem;
-                        top:41rem;
+                        top:9rem;
                         right:0rem;
                         bottom:0rem;
                         left:0rem;
                         margin:1rem;
                         margin-left: auto;
                         margin-right: auto;
-                        z-index: -2;
+                        z-index: 0;
+                        transition: all .5s linear;
                         }
                         #P img{
                             position: absolute;
@@ -323,10 +331,11 @@ margin-right: auto;
                             }
                             #check{
                                 display:none;
+                                transition: all .5s linear;
                             }
                             #icone{
                                 cursor: pointer;
-                                position: absolute;
+                                position: fixed;
                                 width: 1rem;
                                 top:-.5rem;
                                 right:300rem;
@@ -336,7 +345,8 @@ margin-right: auto;
                                 margin-left: auto;
                                 margin-right: auto;
                                 position: absolute;
-                                z-index: 1;
+                                z-index: 2;
+                                transition: all .5s linear;
                                 
                                 
                             }
@@ -346,21 +356,24 @@ margin-right: auto;
                                 height: 200%;
                                 width: 300px;
                                 position: absolute;
-                                transition: all .5s linear;
+                                transition: all 1s linear;
                                 left: -500px;
                                 padding: 10px;
                                 opacity: 0%;
+                                
                             }
                             nav{
                                 width: 90%;
                                 position: absolute;
                                 top: 60px;
-                                left:13px
-                                
-                    
+                                left:13px;
+                                transition: all .5s linear;
+                                                    
                             }
                             nav a{
                                 text-decoration: none;
+                                transition: all .5s linear;
+                                
                     
                     
                             }
@@ -374,13 +387,20 @@ margin-right: auto;
                                 border-bottom: 2px solid #98d4df;
                                 opacity: 0%;
                                 margin-top: 20px;
+                                transition: all .5s linear;
+                        
                             }
                             .link:hover{
                                 background-color:#7c9cb4;
+                                transition: all .5s linear;
                             }
                             #check:checked ~ .barra{
                                 transform: translateX(500px);
                                 opacity: 100%;
+                                z-index: 1;
+                                position: relative;
+                                transition: all .5s linear;
+                                
                                 
                             }
                             
@@ -388,6 +408,7 @@ margin-right: auto;
                                 opacity:1;
                                 margin-top: 0;
                                 transition-delay: .2s;
+                                transition: all .5s linear;
                             }
 
 
@@ -425,6 +446,19 @@ margin-right: auto;
                         margin-right: auto;
                         z-index: -2;
 
+            }
+
+            #Login img {
+                position: absolute;
+                width: 3rem;
+                top:.0rem;
+                right:0rem;
+                bottom:0rem;
+                left:25rem;
+                margin:1rem;
+                margin-left: auto;
+                margin-right: auto;
+                z-index: 1;
             }
 
           
